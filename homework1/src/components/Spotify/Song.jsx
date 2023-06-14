@@ -13,6 +13,7 @@ export default class Song extends React.Component {
         <p>Artist: {this.props.artistName}</p>
         <p>Duration: {this.props.duration}s</p>
         <button
+          disabled={this.props.inPlaylist}
           type="button"
           onClick={() => this.props.addToPlaylist(this.props.id)}>
           Add to playlist
@@ -22,10 +23,10 @@ export default class Song extends React.Component {
   }
 }
 
-// Song.propTypes = {
-//   id: PropTypes.number,
-//   title: PropTypes.string,
-//   artistName: PropTypes.string,
-//   duration: PropTypes.number,
-//   addToPlaylist: PropTypes.func,
-// };
+Song.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  artistName: PropTypes.string,
+  duration: PropTypes.number,
+  addToPlaylist: PropTypes.func,
+};
