@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.employees-ul {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.employee-li {
+  list-style: none;
+  text-align: center;
+  border: 1px solid gray;
+  height: 220px;
+  width: 250px;
+}
+
+input {
+  width: 80%;
+}
+
+.name {
+  color: cadetblue;
+  cursor: pointer;
+}
+
+.header-div {
+  background-color: dimgrey;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.edit {
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: darkgray;
+}
+
+.active {
+  color: white;
+}
+
+.form-div {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+select {
+  width: 200px;
+}

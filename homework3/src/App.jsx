@@ -1,9 +1,9 @@
-import Company from "./Company/Company";
+import Routes from "./common/routes/Routes";
 
 function App() {
   return (
     <>
-      <Company />
+      <Routes />
     </>
   );
 }
